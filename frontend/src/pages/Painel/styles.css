@@ -1,0 +1,109 @@
+.painel {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+.multi {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.logo {
+    font-size: 6.0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.caixa-player {
+    width: 100%;
+    height: 100%;
+}
+
+.player-video {
+    /* width: 100%;
+    height: 1000px; */
+    top: 0;
+    left: 0;
+}
+
+.caixas {
+    width: 40%;
+    background-color: rgb(145, 32, 32);
+
+}
+
+.caixas ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    list-style-type: none;
+    background-color: rgb(145, 32, 32);
+}
+
+.caixas ul li p {
+    font-size: 50px;
+    /* margin-top: 10px; */
+    background-color: rgb(145, 32, 32)
+}
+
+.caixas li {
+    background-color: rgb(145, 32, 32)
+}
+
+.painel .multi .horadata {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-color: black
+    /* margin-left: 50px; */
+}
+
+.painel .multi .horadata p {
+    font-size: 90px;
+    background-color: black
+}
+
+.painel .multi .horadata p + p{
+    margin-left: 100px;
+}
+
+.painel .caixas strong {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.6rem;
+    background-color: rgb(99, 22, 22);
+    height: 120px;
+}
+
+.painel .multi .logo img {
+    width: 230px;
+    height: 120px;
+    background-color: rgb(145, 32, 32);
+    object-fit: cover;
+}
+
+.painel .caixas .caixas1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    list-style-type: none;
+    background-color: rgb(99, 22, 22);
+    font-weight: bold;
+}
+
+.painel .caixas .caixas1 p {
+    background-color: rgb(99, 22, 22);
+}
