@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ReactPlayer from 'react-player';
+// import ReactPlayer from 'react-player';
 
 import api from '../../services/api'
 
@@ -33,12 +33,12 @@ export default function Caixa() {
                 </div>
 
                 <div className='caixa-player'>
-                    <ReactPlayer
+                    {/* <ReactPlayer
                     className='player-video'
                     url='https://www.youtube.com/watch?v=zTitoHKsyJg'
                     width= '100%'
                     height= '100%' 
-                    />
+                    /> */}
                 </div>
                 <div className='horadata'>
                     <p>18:30</p>
